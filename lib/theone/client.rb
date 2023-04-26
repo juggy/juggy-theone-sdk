@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require "net/http"
-require "JSON"
+require "json"
 
 module Theone
   # HTTP client to connect to the One API
