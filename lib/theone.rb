@@ -10,8 +10,8 @@ module Theone
   class Sdk
     attr_reader :client
 
-    def initialize(options)
-      @client = Client.new(options)
+    def initialize(**options)
+      @client = Client.new(**options)
     end
 
     def movies
